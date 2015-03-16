@@ -1,0 +1,2333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>    API Documentation &raquo; \Jstewmc\Rtf\Element\Group
+</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+            <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+            <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script>
+        <script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.js" type="text/javascript"></script>
+        <script src="../js/template.js" type="text/javascript"></script>
+        <script src="../js/prettify/prettify.min.js" type="text/javascript"></script>
+    
+            <link rel="shortcut icon" href="../img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png"/>
+    </head>
+<body>
+
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> </a>
+                <a class="brand" href="../index.html">API Documentation</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                API Documentation <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a>Namespaces</a></li>
+                                                                        <li><a href="../namespaces/Jstewmc.html">Jstewmc</a></li>
+                                                                                                                                </ul>
+                        </li>
+                        <li class="dropdown" id="charts-menu">
+                            <a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                Charts <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../graph_class.html">
+                                        <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="reports-menu">
+                            <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                Reports <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../errors.html">
+                                        <i class="icon-list-alt"></i>&#160;Errors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../markers.html">
+                                        <i class="icon-list-alt"></i>&#160;Markers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../deprecated.html">
+                                        <i class="icon-list-alt"></i>&#160;Deprecated
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="go_to_top">
+            <a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>
+        </div>
+    </div>
+    
+    <div id="___" class="container">
+        <noscript>
+            <div class="alert alert-warning">
+                Javascript is disabled; several features are only available if Javascript is enabled.
+            </div>
+        </noscript>
+
+        
+            <style>
+        .deprecated h2 {
+            text-decoration: line-through;
+        }
+    </style>
+    <div class="row">
+        <div class="span4">
+                    <div class="btn-group view pull-right" data-toggle="buttons-radio">
+        <button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button>
+        <button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+    </div>
+    <div class="btn-group visibility" data-toggle="buttons-checkbox">
+        <button class="btn public active" title="Show public elements">Public</button>
+        <button class="btn protected" title="Show protected elements">Protected</button>
+        <button class="btn private" title="Show private elements">Private</button>
+        <button class="btn inherited active" title="Show inherited elements">Inherited</button>
+    </div>
+
+        <ul class="side-nav nav nav-list">
+        <li class="nav-header">
+            <i class="icon-custom icon-method"></i> Methods
+            <ul>
+                                                                                                    <li class="method public">
+        <a href="#method_getChildren" title="getChildren :: Gets this group&#039;s child elements">
+            <span class="description">Gets this group&#039;s child elements</span><pre>getChildren</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getIsRendered" title="getIsRendered :: Gets this group&#039;s is rendered flag">
+            <span class="description">Gets this group&#039;s is rendered flag</span><pre>getIsRendered</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setChildren" title="setChildren :: Sets this group&#039;s child elements">
+            <span class="description">Sets this group&#039;s child elements</span><pre>setChildren</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setIsRendered" title="setIsRendered :: Sets this group&#039;s is rendered flag">
+            <span class="description">Sets this group&#039;s is rendered flag</span><pre>setIsRendered</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_appendChild" title="appendChild :: Appends a child element to this group">
+            <span class="description">Appends a child element to this group</span><pre>appendChild</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getChild" title="getChild :: Returns the child element with $index or null if child does not exist">
+            <span class="description">Returns the child element with $index or null if child does not exist</span><pre>getChild</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getControlWords" title="getControlWords :: Returns an array of control words with $word and, optionally, $parameter">
+            <span class="description">Returns an array of control words with $word and, optionally, $parameter</span><pre>getControlWords</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getControlSymbols" title="getControlSymbols :: Returns an array of control symbol elements with $symbol and, optionally,
+    $parameter">
+            <span class="description">Returns an array of control symbol elements with $symbol and, optionally,
+    $parameter</span><pre>getControlSymbols</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_getIndex" title="getIndex :: Returns this element&#039;s index in its parent children">
+            <span class="description">Returns this element&#039;s index in its parent children</span><pre>getIndex</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getFirstChild" title="getFirstChild :: Returns the group&#039;s first child element or null if it doesn&#039;t exist">
+            <span class="description">Returns the group&#039;s first child element or null if it doesn&#039;t exist</span><pre>getFirstChild</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getLastChild" title="getLastChild :: Returns the group&#039;s last child element or null if it doesn&#039;t exist">
+            <span class="description">Returns the group&#039;s last child element or null if it doesn&#039;t exist</span><pre>getLastChild</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getLength" title="getLength :: Returns the number of children">
+            <span class="description">Returns the number of children</span><pre>getLength</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_hasChild" title="hasChild :: Returns true if the group has the child">
+            <span class="description">Returns true if the group has the child</span><pre>hasChild</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_insertChild" title="insertChild :: Inserts a child element at $index">
+            <span class="description">Inserts a child element at $index</span><pre>insertChild</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_isDestination" title="isDestination :: Returns true if this group is a &quot;destination&quot;">
+            <span class="description">Returns true if this group is a &quot;destination&quot;</span><pre>isDestination</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_render" title="render :: Renders the group">
+            <span class="description">Renders the group</span><pre>render</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_prependChild" title="prependChild :: Prepends a child element to the group">
+            <span class="description">Prepends a child element to the group</span><pre>prependChild</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_removeChild" title="removeChild :: Removes a child from the parent (and returns it)">
+            <span class="description">Removes a child from the parent (and returns it)</span><pre>removeChild</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_replaceChild" title="replaceChild :: Replaces the the $old with $new (and returns replaced element)">
+            <span class="description">Replaces the the $old with $new (and returns replaced element)</span><pre>replaceChild</pre>
+        </a>
+    </li>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li class="method public inherited">
+        <a href="#method_getParent" title="getParent :: Gets the element&#039;s parent element">
+            <span class="description">Gets the element&#039;s parent element</span><pre>getParent</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_getStyle" title="getStyle :: Gets the element&#039;s style">
+            <span class="description">Gets the element&#039;s style</span><pre>getStyle</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_setParent" title="setParent :: Sets this element&#039;s parent element">
+            <span class="description">Sets this element&#039;s parent element</span><pre>setParent</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_setStyle" title="setStyle :: Sets the element&#039;s style">
+            <span class="description">Sets the element&#039;s style</span><pre>setStyle</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___toString" title="__toString :: Called when the object is used as a string">
+            <span class="description">Called when the object is used as a string</span><pre>__toString</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_appendTo" title="appendTo :: Appends this element to $group">
+            <span class="description">Appends this element to $group</span><pre>appendTo</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_getNextSibling" title="getNextSibling :: Returns this element&#039;s next sibling or null if no sibling exists">
+            <span class="description">Returns this element&#039;s next sibling or null if no sibling exists</span><pre>getNextSibling</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_getPreviousSibling" title="getPreviousSibling :: Returns this element&#039;s previous sibling or null if no sibling exists">
+            <span class="description">Returns this element&#039;s previous sibling or null if no sibling exists</span><pre>getPreviousSibling</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_format" title="format :: Returns the element as a string in $format">
+            <span class="description">Returns the element as a string in $format</span><pre>format</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_insertAfter" title="insertAfter :: Inserts this element after $element">
+            <span class="description">Inserts this element after $element</span><pre>insertAfter</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_insertBefore" title="insertBefore :: Inserts this element before $element">
+            <span class="description">Inserts this element before $element</span><pre>insertBefore</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_isFirstChild" title="isFirstChild :: Returns true if this element is the first child">
+            <span class="description">Returns true if this element is the first child</span><pre>isFirstChild</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_isLastChild" title="isLastChild :: Returns true if this element is the last child">
+            <span class="description">Returns true if this element is the last child</span><pre>isLastChild</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_prependTo" title="prependTo :: Prepends the element to $group">
+            <span class="description">Prepends the element to $group</span><pre>prependTo</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_putNextSibling" title="putNextSibling :: Inserts an element after this element">
+            <span class="description">Inserts an element after this element</span><pre>putNextSibling</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_putPreviousSibling" title="putPreviousSibling :: Inserts $element before this element">
+            <span class="description">Inserts $element before this element</span><pre>putPreviousSibling</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_replaceWith" title="replaceWith :: Replaces this element with $element (and returns this element)">
+            <span class="description">Replaces this element with $element (and returns this element)</span><pre>replaceWith</pre>
+        </a>
+    </li>
+
+                                                </ul>
+        </li>
+        <li class="nav-header protected">» Protected
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="method protected">
+                            <a href="#method_afterInsert" title="afterInsert :: Called after an element is inserted">
+                                <span class="description">Called after an element is inserted</span><pre>afterInsert</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_afterDelete" title="afterDelete :: Called after an element is deleted">
+                                <span class="description">Called after an element is deleted</span><pre>afterDelete</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_beforeDelete" title="beforeDelete :: Called before an element is deleted">
+                                <span class="description">Called before an element is deleted</span><pre>beforeDelete</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_beforeInsert" title="beforeInsert :: Called before an element is inserted">
+                                <span class="description">Called before an element is inserted</span><pre>beforeInsert</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_toHtml" title="toHtml :: Returns the element as an html5 string">
+                                <span class="description">Returns the element as an html5 string</span><pre>toHtml</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_toRtf" title="toRtf :: Returns the element as an rtf string">
+                                <span class="description">Returns the element as an rtf string</span><pre>toRtf</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_toText" title="toText :: Returns the element as a plain text string">
+                                <span class="description">Returns the element as a plain text string</span><pre>toText</pre>
+                            </a>
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+        </li>
+        <li class="nav-header private">» Private
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+        </li>
+        <li class="nav-header">
+            <i class="icon-custom icon-constant"></i> Constants
+            <ul>
+                            </ul>
+        </li>
+    </ul>
+
+
+        </div>
+
+        <div class="span8">
+            <div class="element class">
+                <h1>Group</h1>
+                <small style="display: block; text-align: right">
+                                            Extends <a href="../classes/Jstewmc.Rtf.Element.Element.html">\Jstewmc\Rtf\Element\Element</a>
+                                                        </small>
+                <p class="short_description">A group</p>
+                <div class="details">
+                    <div class="long_description">
+                        <p>A group consists of text, control words, or control symbols enclosed in brackets
+("{" and "}"). The opening brace indicates the start of a group and the closing
+brace indicates the end of a group.</p>
+<p>Formatting within a group affects only the text in that group, and generally,
+text within a group inherits the formatting of the parent group.</p>
+<p>An RTF file may also include groups for fonts, styles, screen-color, pictures,
+footnotes, comments (aka, annotations), headers, footers, summary information,
+fields, and bookmarks as well as document-, section-, paragraph-, and character-
+formatting properties.</p>
+<p>If the font, file, style, screen-color, revision mark, summary-information, or
+document-formatting groups are included, they must precede the first plain-text
+character in the document. These groups form the RTF document header.</p>
+<p>The footnote, comment (aka, annotation), header, and footer groups do not inherit
+the formatting of their parent group. To ensure that these groups are always
+formatted correctly, you should set the formatting of these groups to the default
+with the "\sectd", "\pard", and "\plain" control words, and then add any desired
+formatting.</p>
+                    </div>
+                    <table class="table table-bordered">
+                                                                                    <tr>
+                                    <th>
+                                        author
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Jack Clayton</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        copyright
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>2015 Jack Clayton</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        license
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>MIT</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        since
+                                                                            </th>
+                                    <td>
+                                                                                    0.1.0
+                                                                                
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        package
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Default</p>
+                                    </td>
+                                </tr>
+                                                                                                                                                                                </table>
+
+                    <h3><i class="icon-custom icon-method"></i> Methods</h3>
+                                                                <a id="method_getChildren"></a>
+                        <div class="element clickable method public  method_getChildren" data-toggle="collapse" data-target=".method_getChildren .collapse">
+                            <h2>Gets this group&#039;s child elements</h2>
+                            <pre>getChildren() : array&lt;mixed,\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element&gt;</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>array&lt;mixed,\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element&gt;</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getIsRendered"></a>
+                        <div class="element clickable method public  method_getIsRendered" data-toggle="collapse" data-target=".method_getIsRendered .collapse">
+                            <h2>Gets this group&#039;s is rendered flag</h2>
+                            <pre>getIsRendered() : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_setChildren"></a>
+                        <div class="element clickable method public  method_setChildren" data-toggle="collapse" data-target=".method_setChildren .collapse">
+                            <h2>Sets this group&#039;s child elements</h2>
+                            <pre>setChildren(array&lt;mixed,\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element&gt; $children) : self</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$children</h4>
+                                                <code>array&lt;mixed,\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element&gt;</code><p><p>an array of child elements</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_setIsRendered"></a>
+                        <div class="element clickable method public  method_setIsRendered" data-toggle="collapse" data-target=".method_setIsRendered .collapse">
+                            <h2>Sets this group&#039;s is rendered flag</h2>
+                            <pre>setIsRendered(boolean $isRendered) : self</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$isRendered</h4>
+                                                <code>boolean</code><p><p>a flag indicating whether or not the group has been</p>
+<pre><code>rendered</code></pre></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_appendChild"></a>
+                        <div class="element clickable method public  method_appendChild" data-toggle="collapse" data-target=".method_appendChild .collapse">
+                            <h2>Appends a child element to this group</h2>
+                            <pre>appendChild(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element $element) : self</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element</code><p><p>the element to append</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getChild"></a>
+                        <div class="element clickable method public  method_getChild" data-toggle="collapse" data-target=".method_getChild .collapse">
+                            <h2>Returns the child element with $index or null if child does not exist</h2>
+                            <pre>getChild(integer $index) : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|null</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $index is not an integer</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $index is not an existing key</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$index</h4>
+                                                <code>integer</code><p><p>the index of the desired child element (0-based)</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|null</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getControlWords"></a>
+                        <div class="element clickable method public  method_getControlWords" data-toggle="collapse" data-target=".method_getControlWords .collapse">
+                            <h2>Returns an array of control words with $word and, optionally, $parameter</h2>
+                            <pre>getControlWords(string $word, integer|null|false $parameter = null) : array&lt;mixed,\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Control\Word\Word&gt;</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $word is not a string</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $parameter is not a null, false, or number</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$word</h4>
+                                                <code>string</code><p><p>the control word's word</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$parameter</h4>
+                                                <code>integer|null|false</code><p><p>the control word's integer parameter,</p>
+<pre><code>null for any parameter, or false for no parameter (optional; if omitted,
+defaults to null)</code></pre></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>array&lt;mixed,\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Control\Word\Word&gt;</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getControlSymbols"></a>
+                        <div class="element clickable method public  method_getControlSymbols" data-toggle="collapse" data-target=".method_getControlSymbols .collapse">
+                            <h2>Returns an array of control symbol elements with $symbol and, optionally,
+    $parameter</h2>
+                            <pre>getControlSymbols(string $symbol, string|null|false $parameter = null) : array&lt;mixed,\Jstewmc\Rtf\Element\Jstewc\Element\Control\Symbol\Symbol&gt;</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $word is not a string</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $parameter is not a string or null</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$symbol</h4>
+                                                <code>string</code><p><p>the symbol's symbol</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$parameter</h4>
+                                                <code>string|null|false</code><p><p>the symbol's string parameter; null,</p>
+<pre><code>any parameter; or, false, no parameter (optional; if omitted, defaults to
+null)</code></pre></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>array&lt;mixed,\Jstewmc\Rtf\Element\Jstewc\Element\Control\Symbol\Symbol&gt;</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getIndex"></a>
+                        <div class="element clickable method public  method_getIndex inherited" data-toggle="collapse" data-target=".method_getIndex .collapse">
+                            <h2>Returns this element&#039;s index in its parent children</h2>
+                            <pre>getIndex() : integer|false</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>Warning! This method may return a boolean false, but it may also return an
+integer value that evaluates to false. Use the strict comparison operator,
+"===" when testing the return value of this method.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element doesn't have a parent</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element's parent doesn't have children</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element is not a child of its parent</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>integer|false</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getFirstChild"></a>
+                        <div class="element clickable method public  method_getFirstChild" data-toggle="collapse" data-target=".method_getFirstChild .collapse">
+                            <h2>Returns the group&#039;s first child element or null if it doesn&#039;t exist</h2>
+                            <pre>getFirstChild() : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|null</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|null</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getLastChild"></a>
+                        <div class="element clickable method public  method_getLastChild" data-toggle="collapse" data-target=".method_getLastChild .collapse">
+                            <h2>Returns the group&#039;s last child element or null if it doesn&#039;t exist</h2>
+                            <pre>getLastChild() : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|null</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|null</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getLength"></a>
+                        <div class="element clickable method public  method_getLength" data-toggle="collapse" data-target=".method_getLength .collapse">
+                            <h2>Returns the number of children</h2>
+                            <pre>getLength() : integer</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>integer</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_hasChild"></a>
+                        <div class="element clickable method public  method_hasChild" data-toggle="collapse" data-target=".method_hasChild .collapse">
+                            <h2>Returns true if the group has the child</h2>
+                            <pre>hasChild(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|integer $one, \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|integer|null $two = null) : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>I'll accept one or two arguments: if both an element and an index are given
+(in any order), I'll return true if <em>the</em> element exists at the index; if
+only an element is given, I'll return true if the element exists at <em>any</em>
+index; and, finally, if only an index is given, I'll return true if <em>any</em>
+element exists at the index.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $one is not an element or integer</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $two is not null, an element, or an</p>
+<pre><code>integer</code></pre>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if an element, and element or both are not</p>
+<pre><code>given</code></pre>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$one</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|integer</code><p><p>the element or index to test</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$two</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|integer|null</code><p><p>the element or index to test</p>
+<pre><code>(optional; if omitted, defaults to null)</code></pre></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_insertChild"></a>
+                        <div class="element clickable method public  method_insertChild" data-toggle="collapse" data-target=".method_insertChild .collapse">
+                            <h2>Inserts a child element at $index</h2>
+                            <pre>insertChild(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element $element, integer $index) : self</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>I'll accept a valid key, and insert the element there; a value one higher than
+the highest key, and I'll append the element to the end of the array; or, zero,
+and I'll prepend the element to the beginning of the array.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $index is not a numeric index</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $index is not a valid key; one higher than</p>
+<pre><code>the highest key; or, zero</code></pre>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element</code><p><p>the child element to insert</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$index</h4>
+                                                <code>integer</code><p><p>the child's index</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_isDestination"></a>
+                        <div class="element clickable method public  method_isDestination" data-toggle="collapse" data-target=".method_isDestination .collapse">
+                            <h2>Returns true if this group is a &quot;destination&quot;</h2>
+                            <pre>isDestination() : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_render"></a>
+                        <div class="element clickable method public  method_render" data-toggle="collapse" data-target=".method_render .collapse">
+                            <h2>Renders the group</h2>
+                            <pre>render() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_prependChild"></a>
+                        <div class="element clickable method public  method_prependChild" data-toggle="collapse" data-target=".method_prependChild .collapse">
+                            <h2>Prepends a child element to the group</h2>
+                            <pre>prependChild(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element $element) : self</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element</code><p><p>the child element to prepend</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_removeChild"></a>
+                        <div class="element clickable method public  method_removeChild" data-toggle="collapse" data-target=".method_removeChild .collapse">
+                            <h2>Removes a child from the parent (and returns it)</h2>
+                            <pre>removeChild(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|integer $element) : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|null</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $index is not an intger</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $index is not an existing key</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|integer</code><p><p>the child element or integer index</p>
+<pre><code>to remove</code></pre></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|null</code><p><p>the removed element</p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_replaceChild"></a>
+                        <div class="element clickable method public  method_replaceChild" data-toggle="collapse" data-target=".method_replaceChild .collapse">
+                            <h2>Replaces the the $old with $new (and returns replaced element)</h2>
+                            <pre>replaceChild(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|integer $old, \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element $new) : self</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $index is not an integer or element</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $index is not an existing key or child</p>
+<pre><code>element</code></pre>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$old</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element|integer</code><p><p>the element to be replaced or an integer</p>
+<pre><code>index</code></pre></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$new</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element</code><p><p>the replacement element</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_afterInsert"></a>
+                        <div class="element clickable method protected  method_afterInsert" data-toggle="collapse" data-target=".method_afterInsert .collapse">
+                            <h2>Called after an element is inserted</h2>
+                            <pre>afterInsert() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_afterDelete"></a>
+                        <div class="element clickable method protected  method_afterDelete" data-toggle="collapse" data-target=".method_afterDelete .collapse">
+                            <h2>Called after an element is deleted</h2>
+                            <pre>afterDelete(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element $element) : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element</code><p><p>the deleted element</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_beforeDelete"></a>
+                        <div class="element clickable method protected  method_beforeDelete" data-toggle="collapse" data-target=".method_beforeDelete .collapse">
+                            <h2>Called before an element is deleted</h2>
+                            <pre>beforeDelete() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_beforeInsert"></a>
+                        <div class="element clickable method protected  method_beforeInsert" data-toggle="collapse" data-target=".method_beforeInsert .collapse">
+                            <h2>Called before an element is inserted</h2>
+                            <pre>beforeInsert(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element $element) : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element</code><p><p>the element to be inserted</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_toHtml"></a>
+                        <div class="element clickable method protected  method_toHtml inherited" data-toggle="collapse" data-target=".method_toHtml .collapse">
+                            <h2>Returns the element as an html5 string</h2>
+                            <pre>toHtml() : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_toRtf"></a>
+                        <div class="element clickable method protected  method_toRtf inherited" data-toggle="collapse" data-target=".method_toRtf .collapse">
+                            <h2>Returns the element as an rtf string</h2>
+                            <pre>toRtf() : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_toText"></a>
+                        <div class="element clickable method protected  method_toText inherited" data-toggle="collapse" data-target=".method_toText .collapse">
+                            <h2>Returns the element as a plain text string</h2>
+                            <pre>toText() : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getParent"></a>
+                        <div class="element clickable method public  method_getParent inherited" data-toggle="collapse" data-target=".method_getParent .collapse">
+                            <h2>Gets the element&#039;s parent element</h2>
+                            <pre>getParent() : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getStyle"></a>
+                        <div class="element clickable method public  method_getStyle inherited" data-toggle="collapse" data-target=".method_getStyle .collapse">
+                            <h2>Gets the element&#039;s style</h2>
+                            <pre>getStyle() : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Style</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Style</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_setParent"></a>
+                        <div class="element clickable method public  method_setParent inherited" data-toggle="collapse" data-target=".method_setParent .collapse">
+                            <h2>Sets this element&#039;s parent element</h2>
+                            <pre>setParent(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Group|null $parent = null) : self</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$parent</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Group|null</code><p><p>the element's parent element</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_setStyle"></a>
+                        <div class="element clickable method public  method_setStyle inherited" data-toggle="collapse" data-target=".method_setStyle .collapse">
+                            <h2>Sets the element&#039;s style</h2>
+                            <pre>setStyle(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Style|null $style = null) : self</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$style</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Style|null</code><p><p>the element's style</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method___toString"></a>
+                        <div class="element clickable method public  method___toString inherited" data-toggle="collapse" data-target=".method___toString .collapse">
+                            <h2>Called when the object is used as a string</h2>
+                            <pre>__toString() : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_appendTo"></a>
+                        <div class="element clickable method public  method_appendTo inherited" data-toggle="collapse" data-target=".method_appendTo .collapse">
+                            <h2>Appends this element to $group</h2>
+                            <pre>appendTo(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Group $group) : self</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$group</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Group</code><p><p>the group to append</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getNextSibling"></a>
+                        <div class="element clickable method public  method_getNextSibling inherited" data-toggle="collapse" data-target=".method_getNextSibling .collapse">
+                            <h2>Returns this element&#039;s next sibling or null if no sibling exists</h2>
+                            <pre>getNextSibling() : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element|null</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element doesn't have a parent</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element's parent doesn't have children</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element is not a child of its parent</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element|null</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getPreviousSibling"></a>
+                        <div class="element clickable method public  method_getPreviousSibling inherited" data-toggle="collapse" data-target=".method_getPreviousSibling .collapse">
+                            <h2>Returns this element&#039;s previous sibling or null if no sibling exists</h2>
+                            <pre>getPreviousSibling() : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element|null</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element doesn't have a parent</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element's parent doesn't have children</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element is not a child of its parent</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element|null</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_format"></a>
+                        <div class="element clickable method public  method_format inherited" data-toggle="collapse" data-target=".method_format .collapse">
+                            <h2>Returns the element as a string in $format</h2>
+                            <pre>format(string $format = &#039;rtf&#039;) : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $format is not a string</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $format is not 'rtf', 'html', or 'text'</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$format</h4>
+                                                <code>string</code><p><p>the desired format (possible values are 'rtf',</p>
+<pre><code>'html', and 'text') (optional; if omitted, defaults to 'rtf')</code></pre></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_insertAfter"></a>
+                        <div class="element clickable method public  method_insertAfter inherited" data-toggle="collapse" data-target=".method_insertAfter .collapse">
+                            <h2>Inserts this element after $element</h2>
+                            <pre>insertAfter(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element $element) : self</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $element doesn't have a parent</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $element's parent doesn't have children</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $element is not a child of its parent</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element</code><p><p>the element to insert after</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_insertBefore"></a>
+                        <div class="element clickable method public  method_insertBefore inherited" data-toggle="collapse" data-target=".method_insertBefore .collapse">
+                            <h2>Inserts this element before $element</h2>
+                            <pre>insertBefore(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element $element) : self</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $element doesn't have a parent</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $element's parent doesn't have children</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $element is not a child of its parent</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element</code><p><p>the element to insert before</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_isFirstChild"></a>
+                        <div class="element clickable method public  method_isFirstChild inherited" data-toggle="collapse" data-target=".method_isFirstChild .collapse">
+                            <h2>Returns true if this element is the first child</h2>
+                            <pre>isFirstChild() : boolean</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if this element doesn't have a parent</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if this element's parent doesn't have children</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if this element is not a child of its parent</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_isLastChild"></a>
+                        <div class="element clickable method public  method_isLastChild inherited" data-toggle="collapse" data-target=".method_isLastChild .collapse">
+                            <h2>Returns true if this element is the last child</h2>
+                            <pre>isLastChild() : boolean</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if this element doesn't have a parent</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if this element's parent doesn't have children</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if this element is not a child of its parent</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_prependTo"></a>
+                        <div class="element clickable method public  method_prependTo inherited" data-toggle="collapse" data-target=".method_prependTo .collapse">
+                            <h2>Prepends the element to $group</h2>
+                            <pre>prependTo(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Group $group) : self</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$group</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Group</code><p><p>the group to prepend to</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_putNextSibling"></a>
+                        <div class="element clickable method public  method_putNextSibling inherited" data-toggle="collapse" data-target=".method_putNextSibling .collapse">
+                            <h2>Inserts an element after this element</h2>
+                            <pre>putNextSibling(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element $element) : self</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element doesn't have a parent</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element's parent doesn't have children</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element is not a child of its parent</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element</code><p><p>the element to insert</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_putPreviousSibling"></a>
+                        <div class="element clickable method public  method_putPreviousSibling inherited" data-toggle="collapse" data-target=".method_putPreviousSibling .collapse">
+                            <h2>Inserts $element before this element</h2>
+                            <pre>putPreviousSibling(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element $element) : self</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element doesn't have a parent</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element's parent doesn't have children</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the element is not a child of its parent</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element</code><p><p>the element to insert</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_replaceWith"></a>
+                        <div class="element clickable method public  method_replaceWith inherited" data-toggle="collapse" data-target=".method_replaceWith .collapse">
+                            <h2>Replaces this element with $element (and returns this element)</h2>
+                            <pre>replaceWith(\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element $element) : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if this element doesn't have a parent</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$element</h4>
+                                                <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element</code><p><p>the replacement element</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                    
+                    
+                                                                <h3><i class="icon-custom icon-property"></i> Properties</h3>
+                                                    <a id="property_children"> </a>
+                            <div class="element clickable property  protected property_children" data-toggle="collapse" data-target=".property_children .collapse">
+                                <h2>an array of this group&#039;s child elements</h2>
+                                <pre>children : array&lt;mixed,\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element&gt;</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    <p>an array of this group's child elements</p>
+                                                                                                            </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <th>
+                                                        since
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>array&lt;mixed,\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element&gt;</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_isRendered"> </a>
+                            <div class="element clickable property  protected property_isRendered" data-toggle="collapse" data-target=".property_isRendered .collapse">
+                                <h2>a flag indicating whether or not the group has been rendered
+    (if true, inserting and deleting elements will cause a re-render)</h2>
+                                <pre>isRendered : boolean</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    <p>a flag indicating whether or not the group has been rendered</p>
+<pre><code>(if true, inserting and deleting elements will cause a re-render)</code></pre>
+                                                                                                            </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <th>
+                                                        since
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_parent"> </a>
+                            <div class="element clickable property  protected property_parent inherited" data-toggle="collapse" data-target=".property_parent .collapse">
+                                <h2>this element&#039;s parent element</h2>
+                                <pre>parent : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    <p>this element's parent element</p>
+                                                                                                            </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <th>
+                                                        since
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Element\Element</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_style"> </a>
+                            <div class="element clickable property  protected property_style inherited" data-toggle="collapse" data-target=".property_style .collapse">
+                                <h2>the element&#039;s style</h2>
+                                <pre>style : \Jstewmc\Rtf\Element\Jstewmc\Rtf\Style</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    <p>the element's style</p>
+                                                                                                            </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <th>
+                                                        since
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>\Jstewmc\Rtf\Element\Jstewmc\Rtf\Style</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            </div>
+            </div>
+            <a id="\Jstewmc\Rtf\Element\Group"></a>
+            <ul class="breadcrumb">
+                <li><a href="../index.html"><i class="icon-custom icon-class"></i></a></li>
+                    
+    
+    <li><span class="divider">\</span><a href="../namespaces/Jstewmc.Rtf.Element.html">Element</a></li>
+
+                <li class="active"><span class="divider">\</span><a href="../classes/Jstewmc.Rtf.Element.Group.html">Group</a></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+        <footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by
+            <a href="http://glyphicons.com/">Glyphicons</a>.<br/>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and<br/>
+            generated on Mon, 16 Mar 2015 17:36:08 +0000.<br/>
+    </footer>
+    </body>
+</html>

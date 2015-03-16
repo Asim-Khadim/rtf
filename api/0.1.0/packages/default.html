@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>     &raquo; 
+</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+            <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+            <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script>
+        <script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.js" type="text/javascript"></script>
+        <script src="../js/template.js" type="text/javascript"></script>
+        <script src="../js/prettify/prettify.min.js" type="text/javascript"></script>
+    
+            <link rel="shortcut icon" href="../img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png"/>
+    </head>
+<body>
+
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> </a>
+                <a class="brand" href="../index.html">API Documentation</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                API Documentation <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a>Namespaces</a></li>
+                                                                        <li><a href="../namespaces/Jstewmc.html">Jstewmc</a></li>
+                                                                                                                                </ul>
+                        </li>
+                        <li class="dropdown" id="charts-menu">
+                            <a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                Charts <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../graph_class.html">
+                                        <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="reports-menu">
+                            <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                Reports <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../errors.html">
+                                        <i class="icon-list-alt"></i>&#160;Errors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../markers.html">
+                                        <i class="icon-list-alt"></i>&#160;Markers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../deprecated.html">
+                                        <i class="icon-list-alt"></i>&#160;Deprecated
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="go_to_top">
+            <a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>
+        </div>
+    </div>
+    
+    <div id="___" class="container">
+        <noscript>
+            <div class="alert alert-warning">
+                Javascript is disabled; several features are only available if Javascript is enabled.
+            </div>
+        </noscript>
+
+        
+            
+    <div class="row">
+
+        <div class="span4">
+            <div class="btn-group view pull-right" data-toggle="buttons-radio">
+                <button class="btn details" title="Show descriptions and method names">
+                    <i class="icon-list"></i></button><button class="btn simple" title="Show only method names">
+                    <i class="icon-align-justify"></i>
+                </button>
+            </div>
+            <ul class="side-nav nav nav-list">
+                <li class="nav-header">
+                    <i class="icon-map-marker"></i> Packages
+                </li>
+                    
+        <li>
+        <a href="../packages/Default.html" title="Default">
+            <i class="icon-th"></i> Default
+        </a>
+        <ul class="nav nav-list nav-packages">
+                
+    
+        </ul>
+    </li>
+    
+            </ul>
+        </div>
+
+        <div class="span8 package-contents">
+                
+    <ul class="breadcrumb">
+        <li><a href="../index.html"><i class="icon-th"></i></a></li>
+            
+    
+    <li>
+        <span class="divider">\</span><a href="../packages/default.html">\</a>
+    </li>
+
+    </ul>
+
+    
+                
+    <ul class="breadcrumb">
+        <li><a href="../index.html"><i class="icon-th"></i></a></li>
+            
+    
+    <li>
+        <span class="divider">\</span><a href="../packages/Default.html">Default</a>
+    </li>
+
+    </ul>
+
+    
+        
+        
+                    <div class="package-indent">
+                <h3><i class="icon-custom icon-class"></i> Classes, interfaces and traits</h3>
+                
+                
+                                        <div id="Text" class="element ajax clickable class">
+        <h1>Text<a href="../classes/Jstewmc.Rtf.Token.Text.html">¶</a></h1>
+        <p class="short_description">A plain-text token</p>
+        <div class="details collapse">Everything that isn&#039;t a group-open, group-close, control word, or control
+symbol is plain-text.
+
+Special characters (&quot;\&quot;, &quot;{&quot;, and &quot;}&quot;) are escaped with a backslash (&quot;\&quot;).</div>
+        <a href="../classes/Jstewmc.Rtf.Token.Text.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Token" class="element ajax clickable class">
+        <h1>Token<a href="../classes/Jstewmc.Rtf.Token.Token.html">¶</a></h1>
+        <p class="short_description">A lexer token</p>
+        <div class="details collapse">A lexer token represents an object in the RTF language (e.g., a control word,
+a control symbol, a group-open, a group-close, or a plain-text character).</div>
+        <a href="../classes/Jstewmc.Rtf.Token.Token.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Open" class="element ajax clickable class">
+        <h1>Open<a href="../classes/Jstewmc.Rtf.Token.Group.Open.html">¶</a></h1>
+        <p class="short_description">An open group token</p>
+        <div class="details collapse">A group consists of text, control words, or control symbols enclosed in brackets
+(&quot;{&quot; and &quot;}&quot;). The opening brace indicates the start of a group and the closing
+brace indicates the end of a group.</div>
+        <a href="../classes/Jstewmc.Rtf.Token.Group.Open.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Group" class="element ajax clickable class">
+        <h1>Group<a href="../classes/Jstewmc.Rtf.Token.Group.Group.html">¶</a></h1>
+        <p class="short_description">A group token</p>
+        <div class="details collapse">A group consists of text, control words, or control symbols enclosed in brackets
+(&quot;{&quot; and &quot;}&quot;). The opening brace indicates the start of a group and the closing
+brace indicates the end of a group.</div>
+        <a href="../classes/Jstewmc.Rtf.Token.Group.Group.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Close" class="element ajax clickable class">
+        <h1>Close<a href="../classes/Jstewmc.Rtf.Token.Group.Close.html">¶</a></h1>
+        <p class="short_description">A close group token</p>
+        <div class="details collapse">A group consists of text, control words, or control symbols enclosed in brackets
+(&quot;{&quot; and &quot;}&quot;). The opening brace indicates the start of a group and the closing
+brace indicates the end of a group.</div>
+        <a href="../classes/Jstewmc.Rtf.Token.Group.Close.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Symbol" class="element ajax clickable class">
+        <h1>Symbol<a href="../classes/Jstewmc.Rtf.Token.Control.Symbol.html">¶</a></h1>
+        <p class="short_description">A control symbol token</p>
+        <div class="details collapse">A control symbol consists of a backslash followed by a single, non-alphabetic
+character (aka, a symbol).
+
+A control symbol usually inserts a special character. For example, the control
+symbol &quot;\~&quot; represents a non-breaking space.
+
+Generally, control symbols take no delimiters. However, the apostrophe control
+symbol (&quot;\&#039;&quot;) takes a two-digit hexadecimal parameter.</div>
+        <a href="../classes/Jstewmc.Rtf.Token.Control.Symbol.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Control" class="element ajax clickable class">
+        <h1>Control<a href="../classes/Jstewmc.Rtf.Token.Control.Control.html">¶</a></h1>
+        <p class="short_description">A control word or control symbol token</p>
+        <div class="details collapse">A lexer token represents an object in the RTF language (e.g., a control word,
+a control symbol, a group-open, a group-close, or a plain-text character).</div>
+        <a href="../classes/Jstewmc.Rtf.Token.Control.Control.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Word" class="element ajax clickable class">
+        <h1>Word<a href="../classes/Jstewmc.Rtf.Token.Control.Word.html">¶</a></h1>
+        <p class="short_description">A control word token</p>
+        <div class="details collapse">A control word is a specially-formatted command used to perform actions in an
+RTF document such as: insert special characters, change destination, and set
+paragraph- or character-formatting.
+
+A control word takes the following form:
+
+    \&lt;word&gt;[&lt;delimiter&gt;]
+
+The &lt;word&gt; is a string of alphabetic characters. RTF is case-sensitive, and all
+RTF control words are lowercase. A control word must be shorter than 32
+characters.
+
+The &lt;delimiter&gt; can be one of the following:
+
+    A space (&quot; &quot;)
+        The space is considered part of the control word and does not appear in
+        the document. However, any characters following the space, including
+        spaces, will appear in the document.
+
+    A digit or hyphen (&quot;-&quot;)
+        A digit or hyphen indicates a numeric parameter follows. The subsequent
+        digital sequence is then delimited by a space or any other character
+        besides a letter or digit. The parameter can be a positive or negative
+        number, generally between -32,767 and 32,767. However, readers should
+        accept any arbitrary string of digits as a legal parameter.
+
+    Any character besides a letter or digit
+        In this case, the delimiting character terminates the control word, but
+        is not part of the control word.</div>
+        <a href="../classes/Jstewmc.Rtf.Token.Control.Word.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Group" class="element ajax clickable class">
+        <h1>Group<a href="../classes/Jstewmc.Rtf.Element.Group.html">¶</a></h1>
+        <p class="short_description">A group</p>
+        <div class="details collapse">A group consists of text, control words, or control symbols enclosed in brackets
+(&quot;{&quot; and &quot;}&quot;). The opening brace indicates the start of a group and the closing
+brace indicates the end of a group.
+
+Formatting within a group affects only the text in that group, and generally,
+text within a group inherits the formatting of the parent group.
+
+An RTF file may also include groups for fonts, styles, screen-color, pictures,
+footnotes, comments (aka, annotations), headers, footers, summary information,
+fields, and bookmarks as well as document-, section-, paragraph-, and character-
+formatting properties.
+
+If the font, file, style, screen-color, revision mark, summary-information, or
+document-formatting groups are included, they must precede the first plain-text
+character in the document. These groups form the RTF document header.
+
+The footnote, comment (aka, annotation), header, and footer groups do not inherit
+the formatting of their parent group. To ensure that these groups are always
+formatted correctly, you should set the formatting of these groups to the default
+with the &quot;\sectd&quot;, &quot;\pard&quot;, and &quot;\plain&quot; control words, and then add any desired
+formatting.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Group.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Text" class="element ajax clickable class">
+        <h1>Text<a href="../classes/Jstewmc.Rtf.Element.Text.html">¶</a></h1>
+        <p class="short_description">A plain-text element</p>
+        <div class="details collapse">A element is a component of a document, like a tag to an HTML document or a node
+to an XML document. RTF elements include: groups, text, control words, and
+control symbols.
+
+Every element has a style. An element&#039;s style is the sum of its document-,
+section-, paragraph-, and character-states.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Text.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Element" class="element ajax clickable class">
+        <h1>Element<a href="../classes/Jstewmc.Rtf.Element.Element.html">¶</a></h1>
+        <p class="short_description">A Rich Text Format (RTF) element</p>
+        <div class="details collapse">A element is a component of a document, like a tag to an HTML document or a node
+to an XML document. RTF elements include: groups, text, control words, and
+control symbols.
+
+Every element has a style. An element&#039;s style is the sum of its document-,
+section-, paragraph-, and character-states.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Element.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Symbol" class="element ajax clickable class">
+        <h1>Symbol<a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Symbol.html">¶</a></h1>
+        <p class="short_description">A control symbol element</p>
+        <div class="details collapse">A element is a component of a document, like a tag to an HTML document or a node
+to an XML document. RTF elements include: groups, text, control words, and
+control symbols.
+
+Every element has a style. An element&#039;s style is the sum of its document-,
+section-, paragraph-, and character-states.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Symbol.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Tilde" class="element ajax clickable class">
+        <h1>Tilde<a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Tilde.html">¶</a></h1>
+        <p class="short_description">The tilde control symbol (&quot;\~&quot;)</p>
+        <div class="details collapse">The tilde control symbol inserts a non-breaking space</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Tilde.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Asterisk" class="element ajax clickable class">
+        <h1>Asterisk<a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Asterisk.html">¶</a></h1>
+        <p class="short_description">The asterisk control symbol (&quot;\*&quot;)</p>
+        <div class="details collapse">The asterisk control symbol marks a destination whose text should be ignored
+if not understood by the RTF reader. An asterisk control symbol will always be
+the first control symbol in a destination group.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Asterisk.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Underscore" class="element ajax clickable class">
+        <h1>Underscore<a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Underscore.html">¶</a></h1>
+        <p class="short_description">The underscore control symbol (&quot;\_&quot;)</p>
+        <div class="details collapse">The underscore control symbol inserts a non-breaking hyphen.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Underscore.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Apostrophe" class="element ajax clickable class">
+        <h1>Apostrophe<a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Apostrophe.html">¶</a></h1>
+        <p class="short_description">The apostrophe control symbol (&quot;\&#039;hh&quot;)</p>
+        <div class="details collapse">The apostrophe control symbol is used to represent a non-ASCII character from
+a Windows Code Page. The two digits &quot;hh&quot; are a hexadecimal value for the given
+character on the given code page.
+
+The current code page is specified by the &quot;\ansicpg&quot; control word.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Apostrophe.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Hyphen" class="element ajax clickable class">
+        <h1>Hyphen<a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Hyphen.html">¶</a></h1>
+        <p class="short_description">The hyphen control symbol (&quot;\-&quot;)</p>
+        <div class="details collapse">The hyphen control symbol inserts an optional hyphen</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Symbol.Hyphen.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Control" class="element ajax clickable class">
+        <h1>Control<a href="../classes/Jstewmc.Rtf.Element.Control.Control.html">¶</a></h1>
+        <p class="short_description">A control word or control symbol element</p>
+        <div class="details collapse">A element is a component of a document, like a tag to an HTML document or a node
+to an XML document. RTF elements include: groups, text, control words, and
+control symbols.
+
+Every element has a style. An element&#039;s style is the sum of its document-,
+section-, paragraph-, and character-states.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Control.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Line" class="element ajax clickable class">
+        <h1>Line<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Line.html">¶</a></h1>
+        <p class="short_description">The &quot;\line&quot; control word</p>
+        <div class="details collapse">The &quot;\line&quot; control word inserts a line-break.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Line.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Chtime" class="element ajax clickable class">
+        <h1>Chtime<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Chtime.html">¶</a></h1>
+        <p class="short_description">The &quot;\chtime&quot; control word</p>
+        <div class="details collapse">The &quot;\chtime&quot; control word inserts the current time.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Chtime.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Chdate" class="element ajax clickable class">
+        <h1>Chdate<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Chdate.html">¶</a></h1>
+        <p class="short_description">The &quot;\chdate&quot; control word</p>
+        <div class="details collapse">The &quot;\chdate&quot; control word inserts the current date.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Chdate.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="V" class="element ajax clickable class">
+        <h1>V<a href="../classes/Jstewmc.Rtf.Element.Control.Word.V.html">¶</a></h1>
+        <p class="short_description">The &quot;\v&quot; control word</p>
+        <div class="details collapse">The &quot;\v&quot; control word hides text. The &quot;\v&quot; control word is a two-state control
+word.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.V.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Pard" class="element ajax clickable class">
+        <h1>Pard<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Pard.html">¶</a></h1>
+        <p class="short_description">The &quot;\pard&quot; control word</p>
+        <div class="details collapse">The &quot;\pard&quot; control word resets to default paragraph properties.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Pard.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Rquote" class="element ajax clickable class">
+        <h1>Rquote<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Rquote.html">¶</a></h1>
+        <p class="short_description">The &quot;\rquote&quot; control word</p>
+        <div class="details collapse">The &quot;\rquote&quot; control word inserts a right single-quotation mark.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Rquote.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Rdblquote" class="element ajax clickable class">
+        <h1>Rdblquote<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Rdblquote.html">¶</a></h1>
+        <p class="short_description">The &quot;\rdblquote&quot; control word</p>
+        <div class="details collapse">The &quot;\rdblquote&quot; control word inserts a right double-quotation mark.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Rdblquote.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Chdpl" class="element ajax clickable class">
+        <h1>Chdpl<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Chdpl.html">¶</a></h1>
+        <p class="short_description">The &quot;\chdpl&quot; control word</p>
+        <div class="details collapse">The &quot;\chdpl&quot; control word inserts the current date in abbreviated format (e.g.,
+&quot;Thu, Jul 22, 2015&quot;).</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Chdpl.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Endash" class="element ajax clickable class">
+        <h1>Endash<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Endash.html">¶</a></h1>
+        <p class="short_description">The &quot;\endash&quot; control word</p>
+        <div class="details collapse">The &quot;\endash&quot; control word inserts an en-dash.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Endash.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Emspace" class="element ajax clickable class">
+        <h1>Emspace<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Emspace.html">¶</a></h1>
+        <p class="short_description">The &quot;\emspace&quot; control word</p>
+        <div class="details collapse">The &quot;\emspace&quot; control word inserts a non-breaking space equal to the width of
+the character &quot;m&quot; in the current font-size.
+
+Some old RTF writers will add an extra space after the &quot;\emspace&quot; control word
+to trick readers unaware of &quot;emspace&quot; into parsing a regular space. This reader
+will interpret that as an &quot;emspace&quot; and a regular space.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Emspace.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="I" class="element ajax clickable class">
+        <h1>I<a href="../classes/Jstewmc.Rtf.Element.Control.Word.I.html">¶</a></h1>
+        <p class="short_description">The &quot;\i&quot; control word</p>
+        <div class="details collapse">The &quot;\i&quot; control word italicizes characters. It is a two-state control word.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.I.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Sub" class="element ajax clickable class">
+        <h1>Sub<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Sub.html">¶</a></h1>
+        <p class="short_description">The &quot;\sub&quot; control word</p>
+        <div class="details collapse">The &quot;\sub&quot; control word subscripts text and shrinks font-size according to font
+information.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Sub.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Ulnone" class="element ajax clickable class">
+        <h1>Ulnone<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Ulnone.html">¶</a></h1>
+        <p class="short_description">The &quot;\ulnone&quot; control word</p>
+        <div class="details collapse">The &quot;\ulnone&quot; control word stops underlining characters.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Ulnone.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Bullet" class="element ajax clickable class">
+        <h1>Bullet<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Bullet.html">¶</a></h1>
+        <p class="short_description">The &quot;\bullet&quot; control word</p>
+        <div class="details collapse">The &quot;\bullet&quot; control word inserts a bullet character.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Bullet.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Par" class="element ajax clickable class">
+        <h1>Par<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Par.html">¶</a></h1>
+        <p class="short_description">The &quot;\par&quot; control word</p>
+        <div class="details collapse">The &quot;\par&quot; control word creates a new paragraph.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Par.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="U" class="element ajax clickable class">
+        <h1>U<a href="../classes/Jstewmc.Rtf.Element.Control.Word.U.html">¶</a></h1>
+        <p class="short_description">The &quot;\u&quot; control word</p>
+        <div class="details collapse">The &quot;\u&quot; control word is used to represent a non-ASCII Unicode character.
+
+The &quot;\u&quot; control word should be followed by a signed integer representing
+its Unicode codepoint. For the benefit of older programs without Unicode
+support, this must be followed by the nearest representation of the character
+in the specified code page.
+
+The control word &quot;\uc0&quot; can be used to indicate that subsequent Unicode escape
+sequences within the current group do not specify a substitution character.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.U.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Lquote" class="element ajax clickable class">
+        <h1>Lquote<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Lquote.html">¶</a></h1>
+        <p class="short_description">The &quot;\lquote&quot; control word</p>
+        <div class="details collapse">The &quot;\lquote&quot; control word inserts a left single-quotation mark.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Lquote.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="B" class="element ajax clickable class">
+        <h1>B<a href="../classes/Jstewmc.Rtf.Element.Control.Word.B.html">¶</a></h1>
+        <p class="short_description">The &quot;\b&quot; control word</p>
+        <div class="details collapse">The &quot;\b&quot; control word bolds characters. It is a two-state control word.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.B.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Strike" class="element ajax clickable class">
+        <h1>Strike<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Strike.html">¶</a></h1>
+        <p class="short_description">The &quot;\strike&quot; control word</p>
+        <div class="details collapse">The &quot;\strike&quot; control word sets the character&#039;s strikethrough format property.
+The &quot;\strike&quot; control word is a two-state control word.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Strike.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Qmspace" class="element ajax clickable class">
+        <h1>Qmspace<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Qmspace.html">¶</a></h1>
+        <p class="short_description">The &quot;\qmspace&quot; control word</p>
+        <div class="details collapse">The &quot;\qmspace&quot; control word inserts a one-quarter &quot;m&quot; space.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Qmspace.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Tab" class="element ajax clickable class">
+        <h1>Tab<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Tab.html">¶</a></h1>
+        <p class="short_description">The &quot;\tab&quot; control word</p>
+        <div class="details collapse">The &quot;\tab&quot; control word inserts the tab character.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Tab.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Word" class="element ajax clickable class">
+        <h1>Word<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Word.html">¶</a></h1>
+        <p class="short_description">A control word element</p>
+        <div class="details collapse">A element is a component of a document, like a tag to an HTML document or a node
+to an XML document. RTF elements include: groups, text, control words, and
+control symbols.
+
+Every element has a style. An element&#039;s style is the sum of its document-,
+section-, paragraph-, and character-states.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Word.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Ul" class="element ajax clickable class">
+        <h1>Ul<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Ul.html">¶</a></h1>
+        <p class="short_description">The &quot;\ul&quot; control word</p>
+        <div class="details collapse">The &quot;\ul&quot; control word underlines characters. Keep in mind, the &quot;\ul&quot; control
+word is turned &quot;off&quot; by the &quot;\ulnone&quot; control word. The &quot;\ul0&quot; control word
+turns off all underlining for the group.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Ul.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Super" class="element ajax clickable class">
+        <h1>Super<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Super.html">¶</a></h1>
+        <p class="short_description">The &quot;\super&quot; control word</p>
+        <div class="details collapse">The &quot;\super&quot; control word superscripts text and shrinks font-size according
+to font information.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Super.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Emdash" class="element ajax clickable class">
+        <h1>Emdash<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Emdash.html">¶</a></h1>
+        <p class="short_description">The &quot;\emdash&quot; control word</p>
+        <div class="details collapse">The &quot;\emdash&quot; control word inserts an em-dash.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Emdash.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Plain" class="element ajax clickable class">
+        <h1>Plain<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Plain.html">¶</a></h1>
+        <p class="short_description">The &quot;\plain&quot; control word</p>
+        <div class="details collapse">The &quot;\plain&quot; control word resets the character-formatting properties to their
+default value (e.g., bold is &quot;off&quot;, italic is &quot;off&quot;, etc).</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Plain.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Chdpa" class="element ajax clickable class">
+        <h1>Chdpa<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Chdpa.html">¶</a></h1>
+        <p class="short_description">The &quot;\chdpa&quot; control word</p>
+        <div class="details collapse">The &quot;\chdpa&quot; control words inserts the current date in long format (e.g.,
+&quot;Thursday, July 22, 2015&quot;).</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Chdpa.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Enspace" class="element ajax clickable class">
+        <h1>Enspace<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Enspace.html">¶</a></h1>
+        <p class="short_description">The &quot;\enspace&quot; control word</p>
+        <div class="details collapse">The &quot;\enspace&quot; control word inserts a non-breaking space equal to the width of
+the character &quot;n&quot; in the current font-size.
+
+Some old RTF writers will add an extra space after the &quot;\enspace&quot; control word
+to trick readers unaware of &quot;enspace&quot; into parsing a regular space. This reader
+will interpret that as an &quot;enspace&quot; and a regular space.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Enspace.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Ldblquote" class="element ajax clickable class">
+        <h1>Ldblquote<a href="../classes/Jstewmc.Rtf.Element.Control.Word.Ldblquote.html">¶</a></h1>
+        <p class="short_description">The &quot;\ldblquote&quot; control word</p>
+        <div class="details collapse">The &quot;\ldblquote&quot; control word inserts a left double-quotation mark.</div>
+        <a href="../classes/Jstewmc.Rtf.Element.Control.Word.Ldblquote.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Document" class="element ajax clickable class">
+        <h1>Document<a href="../classes/Jstewmc.Rtf.Document.html">¶</a></h1>
+        <p class="short_description">A Rich Text Format (RTF) document</p>
+        <div class="details collapse"></div>
+        <a href="../classes/Jstewmc.Rtf.Document.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Style" class="element ajax clickable class">
+        <h1>Style<a href="../classes/Jstewmc.Rtf.Style.html">¶</a></h1>
+        <p class="short_description">An element&#039;s style</p>
+        <div class="details collapse">An element&#039;s style is the combination of its document-, section-, paragraph-,
+and character-state.</div>
+        <a href="../classes/Jstewmc.Rtf.Style.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Writer" class="element ajax clickable class">
+        <h1>Writer<a href="../classes/Jstewmc.Rtf.Writer.html">¶</a></h1>
+        <p class="short_description">An RTF writer</p>
+        <div class="details collapse">An RTF writer writes the document back to source code.</div>
+        <a href="../classes/Jstewmc.Rtf.Writer.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Lexer" class="element ajax clickable class">
+        <h1>Lexer<a href="../classes/Jstewmc.Rtf.Lexer.html">¶</a></h1>
+        <p class="short_description">A Rich Text Format (RTF) lexer</p>
+        <div class="details collapse">A Rich Text Format (RTF) lexer converts RTF source code into an array of
+group-open, group-close, control word, control symbol, and character
+tokens.</div>
+        <a href="../classes/Jstewmc.Rtf.Lexer.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Parser" class="element ajax clickable class">
+        <h1>Parser<a href="../classes/Jstewmc.Rtf.Parser.html">¶</a></h1>
+        <p class="short_description">A Rich Text Format (RTF) parser</p>
+        <div class="details collapse">A Rich Text Format (RTF) parser parses an array of tokens into the document&#039;s
+parse tree.</div>
+        <a href="../classes/Jstewmc.Rtf.Parser.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Renderer" class="element ajax clickable class">
+        <h1>Renderer<a href="../classes/Jstewmc.Rtf.Renderer.html">¶</a></h1>
+        <p class="short_description">A rendered</p>
+        <div class="details collapse">A renderer renders the parse tree into the document tree.</div>
+        <a href="../classes/Jstewmc.Rtf.Renderer.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Character" class="element ajax clickable class">
+        <h1>Character<a href="../classes/Jstewmc.Rtf.State.Character.html">¶</a></h1>
+        <p class="short_description">A character state</p>
+        <div class="details collapse">A character state defines character-level properties such as formatting,
+borders, shading, and visibility.</div>
+        <a href="../classes/Jstewmc.Rtf.State.Character.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Paragraph" class="element ajax clickable class">
+        <h1>Paragraph<a href="../classes/Jstewmc.Rtf.State.Paragraph.html">¶</a></h1>
+        <p class="short_description">A paragraph state</p>
+        <div class="details collapse">A state is a set of properties about an element. A single element may have
+hundreds of properties (many of which stay the same element-to-element).
+
+Properties are grouped into document-, section-, paragraph-, and character-
+states.</div>
+        <a href="../classes/Jstewmc.Rtf.State.Paragraph.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Document" class="element ajax clickable class">
+        <h1>Document<a href="../classes/Jstewmc.Rtf.State.Document.html">¶</a></h1>
+        <p class="short_description">A document state</p>
+        <div class="details collapse">A state is a set of properties about an element. A single element may have
+hundreds of properties (many of which stay the same element-to-element).
+
+Properties are grouped into document-, section-, paragraph-, and character-
+states.</div>
+        <a href="../classes/Jstewmc.Rtf.State.Document.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="State" class="element ajax clickable class">
+        <h1>State<a href="../classes/Jstewmc.Rtf.State.State.html">¶</a></h1>
+        <p class="short_description">A state</p>
+        <div class="details collapse">A state is a set of properties about an element. A single element may have
+hundreds of properties (many of which stay the same element-to-element).
+
+Properties are grouped into document-, section-, paragraph-, and character-
+states.</div>
+        <a href="../classes/Jstewmc.Rtf.State.State.html" class="more">« More »</a>
+    </div>
+
+                                        <div id="Section" class="element ajax clickable class">
+        <h1>Section<a href="../classes/Jstewmc.Rtf.State.Section.html">¶</a></h1>
+        <p class="short_description">A section state</p>
+        <div class="details collapse">A state is a set of properties about an element. A single element may have
+hundreds of properties (many of which stay the same element-to-element).
+
+Properties are grouped into document-, section-, paragraph-, and character-
+states.</div>
+        <a href="../classes/Jstewmc.Rtf.State.Section.html" class="more">« More »</a>
+    </div>
+
+                            </div>
+            
+    
+    
+        </div>
+    </div>
+    </div>
+
+        <footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by
+            <a href="http://glyphicons.com/">Glyphicons</a>.<br/>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and<br/>
+            generated on Mon, 16 Mar 2015 17:36:07 +0000.<br/>
+    </footer>
+    </body>
+</html>

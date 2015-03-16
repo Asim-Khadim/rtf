@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>    API Documentation &raquo; \Jstewmc\Rtf\Token\Control\Word
+</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+            <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+            <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script>
+        <script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.js" type="text/javascript"></script>
+        <script src="../js/template.js" type="text/javascript"></script>
+        <script src="../js/prettify/prettify.min.js" type="text/javascript"></script>
+    
+            <link rel="shortcut icon" href="../img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png"/>
+    </head>
+<body>
+
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> </a>
+                <a class="brand" href="../index.html">API Documentation</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                API Documentation <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a>Namespaces</a></li>
+                                                                        <li><a href="../namespaces/Jstewmc.html">Jstewmc</a></li>
+                                                                                                                                </ul>
+                        </li>
+                        <li class="dropdown" id="charts-menu">
+                            <a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                Charts <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../graph_class.html">
+                                        <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="reports-menu">
+                            <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                Reports <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../errors.html">
+                                        <i class="icon-list-alt"></i>&#160;Errors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../markers.html">
+                                        <i class="icon-list-alt"></i>&#160;Markers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../deprecated.html">
+                                        <i class="icon-list-alt"></i>&#160;Deprecated
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="go_to_top">
+            <a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>
+        </div>
+    </div>
+    
+    <div id="___" class="container">
+        <noscript>
+            <div class="alert alert-warning">
+                Javascript is disabled; several features are only available if Javascript is enabled.
+            </div>
+        </noscript>
+
+        
+            <style>
+        .deprecated h2 {
+            text-decoration: line-through;
+        }
+    </style>
+    <div class="row">
+        <div class="span4">
+                    <div class="btn-group view pull-right" data-toggle="buttons-radio">
+        <button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button>
+        <button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+    </div>
+    <div class="btn-group visibility" data-toggle="buttons-checkbox">
+        <button class="btn public active" title="Show public elements">Public</button>
+        <button class="btn protected" title="Show protected elements">Protected</button>
+        <button class="btn private" title="Show private elements">Private</button>
+        <button class="btn inherited active" title="Show inherited elements">Inherited</button>
+    </div>
+
+        <ul class="side-nav nav nav-list">
+        <li class="nav-header">
+            <i class="icon-custom icon-method"></i> Methods
+            <ul>
+                                                                                                    <li class="method public">
+        <a href="#method_getParameter" title="getParameter :: Gets the token&#039;s parameter">
+            <span class="description">Gets the token&#039;s parameter</span><pre>getParameter</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getWord" title="getWord :: Gets the token&#039;s word">
+            <span class="description">Gets the token&#039;s word</span><pre>getWord</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setParameter" title="setParameter :: Sets the token&#039;s parameter">
+            <span class="description">Sets the token&#039;s parameter</span><pre>setParameter</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setWord" title="setWord :: Sets the token&#039;s word">
+            <span class="description">Sets the token&#039;s word</span><pre>setWord</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method___construct" title="__construct :: Constructs the object">
+            <span class="description">Constructs the object</span><pre>__construct</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_createFromSource" title="createFromSource :: Creates a control word token from an RTF source">
+            <span class="description">Creates a control word token from an RTF source</span><pre>createFromSource</pre>
+        </a>
+    </li>
+
+                                                                                                                                                                </ul>
+        </li>
+        <li class="nav-header protected">» Protected
+            <ul>
+                                                                                                                                                                                                                                                                                                    <li class="method protected">
+                            <a href="#method_readWord" title="readWord :: Reads a control word&#039;s word from a $characters array">
+                                <span class="description">Reads a control word&#039;s word from a $characters array</span><pre>readWord</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_readParameter" title="readParameter :: Reads a control word&#039;s parameter from the $characters array">
+                                <span class="description">Reads a control word&#039;s parameter from the $characters array</span><pre>readParameter</pre>
+                            </a>
+                        </li>
+                                                </ul>
+        </li>
+        <li class="nav-header private">» Private
+            <ul>
+                                                                                                                                                                                                                                                                                                                                            </ul>
+        </li>
+        <li class="nav-header">
+            <i class="icon-custom icon-constant"></i> Constants
+            <ul>
+                            </ul>
+        </li>
+    </ul>
+
+
+        </div>
+
+        <div class="span8">
+            <div class="element class">
+                <h1>Word</h1>
+                <small style="display: block; text-align: right">
+                                            Extends <a href="../classes/Jstewmc.Rtf.Token.Control.Control.html">\Jstewmc\Rtf\Token\Control\Control</a>
+                                                        </small>
+                <p class="short_description">A control word token</p>
+                <div class="details">
+                    <div class="long_description">
+                        <p>A control word is a specially-formatted command used to perform actions in an
+RTF document such as: insert special characters, change destination, and set
+paragraph- or character-formatting.</p>
+<p>A control word takes the following form:</p>
+<pre><code>\&lt;word&gt;[&lt;delimiter&gt;]</code></pre>
+<p>The <word> is a string of alphabetic characters. RTF is case-sensitive, and all
+RTF control words are lowercase. A control word must be shorter than 32
+characters.</p>
+<p>The <delimiter> can be one of the following:</p>
+<pre><code>A space (" ")
+    The space is considered part of the control word and does not appear in
+    the document. However, any characters following the space, including
+    spaces, will appear in the document.
+
+A digit or hyphen ("-")
+    A digit or hyphen indicates a numeric parameter follows. The subsequent
+    digital sequence is then delimited by a space or any other character
+    besides a letter or digit. The parameter can be a positive or negative
+    number, generally between -32,767 and 32,767. However, readers should
+    accept any arbitrary string of digits as a legal parameter.
+
+Any character besides a letter or digit
+    In this case, the delimiting character terminates the control word, but
+    is not part of the control word.</code></pre>
+                    </div>
+                    <table class="table table-bordered">
+                                                                                    <tr>
+                                    <th>
+                                        author
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Jack Clayton</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        copyright
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>2015 Jack Clayton</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        license
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>MIT</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        since
+                                                                            </th>
+                                    <td>
+                                                                                    0.1.0
+                                                                                
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        package
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Default</p>
+                                    </td>
+                                </tr>
+                                                                                                                                                                                </table>
+
+                    <h3><i class="icon-custom icon-method"></i> Methods</h3>
+                                                                <a id="method_getParameter"></a>
+                        <div class="element clickable method public  method_getParameter" data-toggle="collapse" data-target=".method_getParameter .collapse">
+                            <h2>Gets the token&#039;s parameter</h2>
+                            <pre>getParameter() : integer</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>integer</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_getWord"></a>
+                        <div class="element clickable method public  method_getWord" data-toggle="collapse" data-target=".method_getWord .collapse">
+                            <h2>Gets the token&#039;s word</h2>
+                            <pre>getWord() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_setParameter"></a>
+                        <div class="element clickable method public  method_setParameter" data-toggle="collapse" data-target=".method_setParameter .collapse">
+                            <h2>Sets the token&#039;s parameter</h2>
+                            <pre>setParameter(integer $parameter) : self</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$parameter</h4>
+                                                <code>integer</code><p><p>the token's parameter</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_setWord"></a>
+                        <div class="element clickable method public  method_setWord" data-toggle="collapse" data-target=".method_setWord .collapse">
+                            <h2>Sets the token&#039;s word</h2>
+                            <pre>setWord(string $word) : self</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$word</h4>
+                                                <code>string</code><p><p>the token's word</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>self</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method___construct"></a>
+                        <div class="element clickable method public  method___construct" data-toggle="collapse" data-target=".method___construct .collapse">
+                            <h2>Constructs the object</h2>
+                            <pre>__construct(string $word = null, integer $parameter = null) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$word</h4>
+                                                <code>string</code><p><p>the control word's command (optional; if omitted,</p>
+<pre><code>defaults to null)</code></pre></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$parameter</h4>
+                                                <code>integer</code><p><p>the control word's numeric parameter (optional;</p>
+<pre><code>if omitted, defaults to null)</code></pre></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_createFromSource"></a>
+                        <div class="element clickable method public  method_createFromSource" data-toggle="collapse" data-target=".method_createFromSource .collapse">
+                            <h2>Creates a control word token from an RTF source</h2>
+                            <pre>createFromSource(array&lt;mixed,string&gt; &$characters) : \Jstewmc\Rtf\Token\Control\Jstewmc\RtfLexer\Token\Control\Word|false</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the current character in $characters is</p>
+<pre><code>not the backslash character ("\")</code></pre>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the next character in $characters is not</p>
+<pre><code>an alphabetic character</code></pre>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$characters</h4>
+                                                <code>array&lt;mixed,string&gt;</code><p><p>an array of characters (the current character</p>
+<pre><code>in $characters must be the backslash character ("\"))</code></pre></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>\Jstewmc\Rtf\Token\Control\Jstewmc\RtfLexer\Token\Control\Word|false</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_readWord"></a>
+                        <div class="element clickable method protected  method_readWord" data-toggle="collapse" data-target=".method_readWord .collapse">
+                            <h2>Reads a control word&#039;s word from a $characters array</h2>
+                            <pre>readWord(array&lt;mixed,string&gt; &$characters) : string</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the current element in $characters is not</p>
+<pre><code>an alphabetic character</code></pre>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$characters</h4>
+                                                <code>array&lt;mixed,string&gt;</code><p><p>an array of characters (the current character</p>
+<pre><code>must be a alphabetic character)</code></pre></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                                            <a id="method_readParameter"></a>
+                        <div class="element clickable method protected  method_readParameter" data-toggle="collapse" data-target=".method_readParameter .collapse">
+                            <h2>Reads a control word&#039;s parameter from the $characters array</h2>
+                            <pre>readParameter(array&lt;mixed,string&gt; &$characters) : integer</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if $characters is not an array</p>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if the current character in $characters is</p>
+<pre><code>not a digit or hyphen</code></pre>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    since
+                                                </th>
+                                                <td>
+                                                                                                                                                                        0.1.0
+                                                                                                                                                                        
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$characters</h4>
+                                                <code>array&lt;mixed,string&gt;</code><p><p>an array of characters (the current character</p>
+<pre><code>must be a digit or hyphen)</code></pre></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>integer</code><p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                    
+                    
+                                                                <h3><i class="icon-custom icon-property"></i> Properties</h3>
+                                                    <a id="property_parameter"> </a>
+                            <div class="element clickable property  protected property_parameter" data-toggle="collapse" data-target=".property_parameter .collapse">
+                                <h2>the control word&#039;s numeric parameter</h2>
+                                <pre>parameter : integer</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    <p>the control word's numeric parameter</p>
+                                                                                                            </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <th>
+                                                        since
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>integer</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_word"> </a>
+                            <div class="element clickable property  protected property_word" data-toggle="collapse" data-target=".property_word .collapse">
+                                <h2>the control word&#039;s word</h2>
+                                <pre>word : string</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    <p>the control word's word</p>
+                                                                                                            </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <th>
+                                                        since
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            </div>
+            </div>
+            <a id="\Jstewmc\Rtf\Token\Control\Word"></a>
+            <ul class="breadcrumb">
+                <li><a href="../index.html"><i class="icon-custom icon-class"></i></a></li>
+                    
+    
+    <li><span class="divider">\</span><a href="../namespaces/Jstewmc.Rtf.Token.Control.html">Control</a></li>
+
+                <li class="active"><span class="divider">\</span><a href="../classes/Jstewmc.Rtf.Token.Control.Word.html">Word</a></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+        <footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by
+            <a href="http://glyphicons.com/">Glyphicons</a>.<br/>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and<br/>
+            generated on Mon, 16 Mar 2015 17:36:08 +0000.<br/>
+    </footer>
+    </body>
+</html>
